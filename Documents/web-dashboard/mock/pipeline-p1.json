@@ -1,0 +1,17 @@
+{
+  "id": "p1",
+  "jobs": [
+    {
+      "id": "j1",
+      "name": "compile",
+      "status": "passed",
+      "duration_sec": 40
+    },
+    {
+      "id": "j2",
+      "name": "unit-tests",
+      "status": "passed",
+      "duration_sec": 102
+    }
+  ]
+}

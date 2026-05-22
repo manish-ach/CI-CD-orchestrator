@@ -1,0 +1,18 @@
+[
+  {
+    "id": "p1",
+    "name": "build-and-test",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 142,
+    "started_at": "2026-05-18T10:00:00Z"
+  },
+  {
+    "id": "p2",
+    "name": "build-and-test",
+    "branch": "feature/auth",
+    "status": "running",
+    "duration_sec": 30,
+    "started_at": "2026-05-18T10:05:00Z"
+  }
+]
