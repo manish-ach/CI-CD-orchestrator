@@ -1,0 +1,18 @@
+{
+  "id": "search-indexer",
+  "branch": "refactor/elastic",
+  "jobs": [
+    {
+      "id": "srch-j1",
+      "name": "compile",
+      "status": "passed",
+      "duration_sec": 45
+    },
+    {
+      "id": "srch-j2",
+      "name": "index-validation-test",
+      "status": "running",
+      "duration_sec": 267
+    }
+  ]
+}

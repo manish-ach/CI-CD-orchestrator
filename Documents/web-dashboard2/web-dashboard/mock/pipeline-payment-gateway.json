@@ -1,0 +1,24 @@
+{
+  "id": "payment-gateway",
+  "branch": "feat/stripe-v3",
+  "jobs": [
+    {
+      "id": "pay-j1",
+      "name": "lint",
+      "status": "passed",
+      "duration_sec": 10
+    },
+    {
+      "id": "pay-j2",
+      "name": "compile",
+      "status": "passed",
+      "duration_sec": 20
+    },
+    {
+      "id": "pay-j3",
+      "name": "test-stripe-api",
+      "status": "running",
+      "duration_sec": 15
+    }
+  ]
+}

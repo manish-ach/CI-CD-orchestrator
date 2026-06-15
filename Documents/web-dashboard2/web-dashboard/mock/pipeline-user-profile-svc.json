@@ -1,0 +1,18 @@
+{
+  "id": "user-profile-svc",
+  "branch": "develop",
+  "jobs": [
+    {
+      "id": "prof-j1",
+      "name": "compile",
+      "status": "passed",
+      "duration_sec": 40
+    },
+    {
+      "id": "prof-j2",
+      "name": "avatar-processing-tests",
+      "status": "running",
+      "duration_sec": 142
+    }
+  ]
+}

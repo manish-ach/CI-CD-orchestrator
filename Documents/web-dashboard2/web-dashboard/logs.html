@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Job Logs - Orchestrator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-[#f8fafc] text-slate-800 font-sans antialiased min-h-screen">
+  <div class="max-w-5xl mx-auto px-6 py-8">
+    
+    <!-- Navigation back -->
+    <a href="#" id="backLink" class="inline-flex items-center space-x-2 text-slate-500 hover:text-slate-900 font-semibold text-xs mb-6 transition-colors px-3 py-2 border border-slate-200 rounded-lg bg-white shadow-sm">
+      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <line x1="19" y1="12" x2="5" y2="12"></line>
+        <polyline points="12 19 5 12 12 5"></polyline>
+      </svg>
+      <span>Back to Jobs</span>
+    </a>
+
+    <!-- Header Logs Card -->
+    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm mb-6">
+      <div>
+        <h1 class="text-xl font-bold text-slate-900 leading-tight" id="jobTitle">Logs: Loading...</h1>
+        <div class="flex items-center space-x-3 mt-2 text-xs font-semibold text-slate-500">
+          <span>Last updated: <span id="lastUpdated" class="font-mono">Loading...</span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Logs Content -->
+    <div class="space-y-6">
+      
+      <!-- Loading spinner -->
+      <div id="loading" class="flex flex-col items-center justify-center py-16 text-slate-400">
+        <div class="animate-spin h-6 w-6 border-2 border-slate-500 rounded-full border-t-transparent"></div>
+      </div>
+
+      <!-- Content view -->
+      <div id="logsContent" class="hidden space-y-6">
+        <!-- Stdout block -->
+        <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
+          <div class="px-5 py-3 border-b border-slate-150 bg-[#fafafa]">
+            <h3 class="text-xs font-bold text-slate-800 uppercase tracking-wider">Standard Output (stdout)</h3>
+          </div>
+          <div class="p-5 bg-slate-950 text-slate-200">
+            <pre id="stdout" class="font-mono text-xs overflow-auto max-h-96 leading-relaxed selection:bg-slate-800 selection:text-white"></pre>
+          </div>
+        </div>
+
+        <!-- Stderr block -->
+        <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
+          <div class="px-5 py-3 border-b border-slate-150 bg-[#fafafa]">
+            <h3 class="text-xs font-bold text-rose-800 uppercase tracking-wider">Standard Error (stderr)</h3>
+          </div>
+          <div class="p-5 bg-slate-950 text-rose-200">
+            <pre id="stderr" class="font-mono text-xs overflow-auto max-h-96 leading-relaxed selection:bg-slate-800 selection:text-rose-100"></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- Empty state -->
+      <div id="emptyLogs" class="hidden bg-white border border-slate-200 rounded-xl p-12 text-center text-slate-400">
+        <p class="text-sm font-semibold">No logs available for this job.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script type="module" src="js/logs.js"></script>
+</body>
+</html>

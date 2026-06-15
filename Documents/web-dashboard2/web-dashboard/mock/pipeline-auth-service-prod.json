@@ -1,0 +1,23 @@
+{
+  "id": "auth-service-prod",
+  "jobs": [
+    {
+      "id": "auth-j1",
+      "name": "compile",
+      "status": "passed",
+      "duration_sec": 34
+    },
+    {
+      "id": "auth-j2",
+      "name": "unit-tests",
+      "status": "passed",
+      "duration_sec": 55
+    },
+    {
+      "id": "auth-j3",
+      "name": "security-scan",
+      "status": "passed",
+      "duration_sec": 35
+    }
+  ]
+}

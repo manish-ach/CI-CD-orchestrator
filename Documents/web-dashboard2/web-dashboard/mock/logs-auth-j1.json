@@ -1,0 +1,4 @@
+{
+  "stdout": "npm run build\n\n> auth-service@2.4.0 build\n> tsc\n\nTypeScript compilation complete.\nCopying config files...\nFinished successfully in 34s.\n",
+  "stderr": ""
+}

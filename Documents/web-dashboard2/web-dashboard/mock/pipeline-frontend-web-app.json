@@ -1,0 +1,30 @@
+{
+  "id": "frontend-web-app",
+  "branch": "main",
+  "jobs": [
+    {
+      "id": "fe-j1",
+      "name": "install-deps",
+      "status": "passed",
+      "duration_sec": 45
+    },
+    {
+      "id": "fe-j2",
+      "name": "lint-and-format",
+      "status": "passed",
+      "duration_sec": 15
+    },
+    {
+      "id": "fe-j3",
+      "name": "build-production",
+      "status": "passed",
+      "duration_sec": 120
+    },
+    {
+      "id": "fe-j4",
+      "name": "lighthouse-audit",
+      "status": "passed",
+      "duration_sec": 30
+    }
+  ]
+}

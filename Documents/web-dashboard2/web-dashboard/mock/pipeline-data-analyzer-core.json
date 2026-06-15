@@ -1,0 +1,18 @@
+{
+  "id": "data-analyzer-core",
+  "branch": "main",
+  "jobs": [
+    {
+      "id": "da-j1",
+      "name": "compile",
+      "status": "passed",
+      "duration_sec": 12
+    },
+    {
+      "id": "da-j2",
+      "name": "spark-unit-tests",
+      "status": "failed",
+      "duration_sec": 6
+    }
+  ]
+}

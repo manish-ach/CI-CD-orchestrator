@@ -1,0 +1,338 @@
+[
+  {
+    "id": "auth-service-prod",
+    "name": "auth-service-prod",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 124,
+    "started_at_offset": 120
+  },
+  {
+    "id": "payment-gateway",
+    "name": "payment-gateway",
+    "branch": "feat/stripe-v3",
+    "status": "running",
+    "duration_sec": 45,
+    "started_at_offset": 10
+  },
+  {
+    "id": "data-analyzer-core",
+    "name": "data-analyzer-core",
+    "branch": "main",
+    "status": "failed",
+    "duration_sec": 18,
+    "started_at_offset": 900
+  },
+  {
+    "id": "frontend-web-app",
+    "name": "frontend-web-app",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 210,
+    "started_at_offset": 3600
+  },
+  {
+    "id": "inventory-svc",
+    "name": "inventory-svc",
+    "branch": "fix/mem-leak",
+    "status": "passed",
+    "duration_sec": 89,
+    "started_at_offset": 7200
+  },
+  {
+    "id": "notification-worker",
+    "name": "notification-worker",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 45,
+    "started_at_offset": 10800
+  },
+  {
+    "id": "search-indexer",
+    "name": "search-indexer",
+    "branch": "refactor/elastic",
+    "status": "running",
+    "duration_sec": 312,
+    "started_at_offset": 300
+  },
+  {
+    "id": "api-documentation",
+    "name": "api-documentation",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 12,
+    "started_at_offset": 86400
+  },
+  {
+    "id": "cache-manager",
+    "name": "cache-manager",
+    "branch": "main",
+    "status": "failed",
+    "duration_sec": 5,
+    "started_at_offset": 90000
+  },
+  {
+    "id": "user-profile-svc",
+    "name": "user-profile-svc",
+    "branch": "develop",
+    "status": "running",
+    "duration_sec": 182,
+    "started_at_offset": 20
+  },
+  {
+    "id": "billing-engine",
+    "name": "billing-engine",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 94,
+    "started_at_offset": 120000
+  },
+  {
+    "id": "email-delivery-svc",
+    "name": "email-delivery-svc",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 55,
+    "started_at_offset": 130000
+  },
+  {
+    "id": "analytics-db-sync",
+    "name": "analytics-db-sync",
+    "branch": "master",
+    "status": "passed",
+    "duration_sec": 1200,
+    "started_at_offset": 150000
+  },
+  {
+    "id": "kubernetes-operator",
+    "name": "kubernetes-operator",
+    "branch": "feat/k8s-1.28",
+    "status": "failed",
+    "duration_sec": 412,
+    "started_at_offset": 180000
+  },
+  {
+    "id": "admin-portal",
+    "name": "admin-portal",
+    "branch": "develop",
+    "status": "passed",
+    "duration_sec": 185,
+    "started_at_offset": 200000
+  },
+  {
+    "id": "logging-agent",
+    "name": "logging-agent",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 55,
+    "started_at_offset": 220000
+  },
+  {
+    "id": "config-service",
+    "name": "config-service",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 30,
+    "started_at_offset": 250000
+  },
+  {
+    "id": "metrics-collector",
+    "name": "metrics-collector",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 78,
+    "started_at_offset": 270000
+  },
+  {
+    "id": "image-resizer",
+    "name": "image-resizer",
+    "branch": "feat/webp",
+    "status": "failed",
+    "duration_sec": 140,
+    "started_at_offset": 300000
+  },
+  {
+    "id": "user-auth-lib",
+    "name": "user-auth-lib",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 45,
+    "started_at_offset": 320000
+  },
+  {
+    "id": "search-crawler",
+    "name": "search-crawler",
+    "branch": "develop",
+    "status": "passed",
+    "duration_sec": 512,
+    "started_at_offset": 340000
+  },
+  {
+    "id": "alert-manager",
+    "name": "alert-manager",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 88,
+    "started_at_offset": 360000
+  },
+  {
+    "id": "deployment-trigger",
+    "name": "deployment-trigger",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 14,
+    "started_at_offset": 380000
+  },
+  {
+    "id": "chat-service",
+    "name": "chat-service",
+    "branch": "feat/websockets",
+    "status": "failed",
+    "duration_sec": 190,
+    "started_at_offset": 400000
+  },
+  {
+    "id": "voice-transcriber",
+    "name": "voice-transcriber",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 780,
+    "started_at_offset": 420000
+  },
+  {
+    "id": "pdf-generator",
+    "name": "pdf-generator",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 67,
+    "started_at_offset": 450000
+  },
+  {
+    "id": "data-exporter",
+    "name": "data-exporter",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 305,
+    "started_at_offset": 480000
+  },
+  {
+    "id": "content-moderator",
+    "name": "content-moderator",
+    "branch": "feat/ai-filter",
+    "status": "passed",
+    "duration_sec": 412,
+    "started_at_offset": 500000
+  },
+  {
+    "id": "recommendation-engine",
+    "name": "recommendation-engine",
+    "branch": "develop",
+    "status": "passed",
+    "duration_sec": 620,
+    "started_at_offset": 520000
+  },
+  {
+    "id": "session-manager",
+    "name": "session-manager",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 34,
+    "started_at_offset": 540000
+  },
+  {
+    "id": "geo-ip-service",
+    "name": "geo-ip-service",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 15,
+    "started_at_offset": 560000
+  },
+  {
+    "id": "dns-health-check",
+    "name": "dns-health-check",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 8,
+    "started_at_offset": 580000
+  },
+  {
+    "id": "ssl-renewer",
+    "name": "ssl-renewer",
+    "branch": "cron/renew",
+    "status": "passed",
+    "duration_sec": 45,
+    "started_at_offset": 600000
+  },
+  {
+    "id": "db-backup-verify",
+    "name": "db-backup-verify",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 920,
+    "started_at_offset": 620000
+  },
+  {
+    "id": "asset-uploader",
+    "name": "asset-uploader",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 115,
+    "started_at_offset": 640000
+  },
+  {
+    "id": "sms-gateway",
+    "name": "sms-gateway",
+    "branch": "feat/twilio-failover",
+    "status": "passed",
+    "duration_sec": 55,
+    "started_at_offset": 660000
+  },
+  {
+    "id": "webhook-dispatcher",
+    "name": "webhook-dispatcher",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 48,
+    "started_at_offset": 680000
+  },
+  {
+    "id": "schema-migrator",
+    "name": "schema-migrator",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 130,
+    "started_at_offset": 700000
+  },
+  {
+    "id": "internal-wiki",
+    "name": "internal-wiki",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 82,
+    "started_at_offset": 720000
+  },
+  {
+    "id": "status-page-updater",
+    "name": "status-page-updater",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 22,
+    "started_at_offset": 740000
+  },
+  {
+    "id": "secret-rotator",
+    "name": "secret-rotator",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 59,
+    "started_at_offset": 760000
+  },
+  {
+    "id": "rate-limiter",
+    "name": "rate-limiter",
+    "branch": "main",
+    "status": "passed",
+    "duration_sec": 18,
+    "started_at_offset": 780000
+  }
+]

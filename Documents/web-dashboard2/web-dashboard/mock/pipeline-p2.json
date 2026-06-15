@@ -1,0 +1,17 @@
+{
+  "id": "p2",
+  "jobs": [
+    {
+      "id": "j3",
+      "name": "lint",
+      "status": "pending",
+      "duration_sec": 0
+    },
+    {
+      "id": "j4",
+      "name": "compile",
+      "status": "running",
+      "duration_sec": 15
+    }
+  ]
+}

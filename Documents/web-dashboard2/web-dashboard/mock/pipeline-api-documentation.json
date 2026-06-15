@@ -1,0 +1,18 @@
+{
+  "id": "api-documentation",
+  "branch": "main",
+  "jobs": [
+    {
+      "id": "api-j1",
+      "name": "generate-swagger",
+      "status": "passed",
+      "duration_sec": 4
+    },
+    {
+      "id": "api-j2",
+      "name": "validate-schema",
+      "status": "passed",
+      "duration_sec": 8
+    }
+  ]
+}

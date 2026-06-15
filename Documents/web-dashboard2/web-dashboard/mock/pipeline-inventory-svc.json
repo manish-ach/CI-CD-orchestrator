@@ -1,0 +1,18 @@
+{
+  "id": "inventory-svc",
+  "branch": "fix/mem-leak",
+  "jobs": [
+    {
+      "id": "inv-j1",
+      "name": "compile",
+      "status": "passed",
+      "duration_sec": 29
+    },
+    {
+      "id": "inv-j2",
+      "name": "integration-tests",
+      "status": "passed",
+      "duration_sec": 60
+    }
+  ]
+}

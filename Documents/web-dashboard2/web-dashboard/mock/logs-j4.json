@@ -1,0 +1,4 @@
+{
+  "stdout": "Compiling source files...\nmain.go:10: warning: unused variable\n",
+  "stderr": ""
+}

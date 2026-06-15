@@ -1,0 +1,12 @@
+{
+  "id": "cache-manager",
+  "branch": "main",
+  "jobs": [
+    {
+      "id": "cache-j1",
+      "name": "redis-integration-tests",
+      "status": "failed",
+      "duration_sec": 5
+    }
+  ]
+}
